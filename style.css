@@ -1,0 +1,547 @@
+*{margin: 0; padding: 0;}
+
+    @font-face{
+        font-family: vietnam4;
+        src: url(BeVietnamPro-Regular.ttf)
+    }
+    
+    @font-face{
+        font-family: vietnam5;
+        src: url(BeVietnamPro-Medium.ttf)
+    }
+ 
+    @font-face{
+        font-family: vietnam7;
+        src: url(BeVietnamPro-Bold.ttf)
+    }    
+
+    @media (max-width:480px){
+
+        .container1{
+          padding: 30px 20px 10px 80px;
+        }
+
+        header nav a{
+            display: none;
+        }
+
+        .container1::after{
+            justify-items: center;
+            padding-left: 120px;
+            content:url(/imagenes/Vector\ \(1\).png)
+        }
+
+        .headerbutton{
+            visibility: hidden;
+        }
+
+        .contenedor2{  
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .tenista{
+            width: 440px;
+            height: 380px;
+            margin: 0px 20px 100px 0px;
+        }
+        
+        .titulo{
+            width: 370px;
+            font-size: 100px;
+            padding-left: 65px;
+        }
+
+        .final{
+            font-size: 16.5584px;
+            width: 370px;
+            padding-left: 180px;
+        }
+
+        .mainbutton{
+            width: 100px;
+        }
+
+        .contenedor3{         
+            flex-direction: column;
+            width: 108%;
+            gap: 30px;
+        }
+
+        .contenedor3titulo::after{
+            color: white;
+            font-size: 36px;
+        }
+
+        .contenedor3lorem{
+            display: none;
+        }
+
+        .contenedor3::after{
+            content: 'Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams';
+            font-family: vietnam5;
+            width: 440px;
+        }
+
+        .contenedor4{
+            flex-wrap: wrap;
+            width: 108%;
+        }
+        
+        .numero{
+            display: none;
+        }
+
+        .titulo2{
+            background-color: rgba(139, 72, 191, 0.3);
+        }
+
+        .titulo2::before{
+            content: url(/imagenes/Button.png);
+        }
+
+        .contenido3{
+            width: 129%;
+        }
+
+        .best{
+            padding-left: 120px;
+        }
+
+        .jugadores{
+            flex-wrap: wrap;
+            width: 104%;
+        }
+
+        .jugador1,.jugador3{
+            display: none;
+        }
+
+        .buttonjugador{
+            margin-left: 160px;
+        }
+
+        .contenedor6{
+            flex-wrap: wrap;
+            width: 105%;
+            gap: 100px;
+        }
+
+        .contenedor6titulo{
+            text-align: center;
+        }
+
+        .buttongoforit{
+            margin-right: 250px;
+        }
+
+        .contenedorultimo{
+            flex-direction: column-reverse;
+            flex-wrap: wrap-reverse;
+            width: 103%;
+            justify-items: center;
+        }
+
+        .footeroptions{
+            font-size: 20px;
+        }
+
+        .formulario{
+            margin-left: 100px;
+            flex-wrap: wrap-reverse;
+        }
+
+        .copyright{
+            display: none;
+        }
+
+        .OPCIONES{
+            display: flex;
+            padding: 40px;
+            justify-content: space-around;
+        }
+
+        .logoytipo{
+            padding-left: 170px;
+            flex-wrap: wrap-reverse;
+            flex-direction: column-reverse;
+        }
+
+        .logoytipo::after{
+            content:'Copyright 2020. All Rights Reserved';
+            color: #8C8C94;
+            line-height: 80px;
+            padding-right: 80px;
+        }
+
+    }
+
+    .container1{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 50px 0px 50px;
+        align-items: center;
+    }
+
+    .tenista{
+        transition: transform 450ms ease-in-out;
+    }
+
+    .tenista:hover{
+        transform:translate(50px);
+    }
+    
+
+    .navegation{
+        font-family: vietnam5;
+        text-decoration: none;
+        padding-left: 25px;
+        font-size: 13px;
+        transition: 450ms;
+    }
+
+    .navegation:hover{
+        color: rgba(36, 46, 82, 0.6);
+        transition: 450ms;
+    }
+
+    .headerbutton{
+        width: 134px;
+        height: 44px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-size: 13.1806px;
+        font-family: vietnam5;
+        transition: 450ms;
+    }
+
+    .headerbutton:hover{ 
+        background: rgba(139, 72, 191, 0.7);
+        transition: 450ms;
+    }
+
+    .contenedor2{
+        display: flex;
+        justify-content: center;
+        padding: 80px 0;
+    }
+
+    .LIVE{
+        text-align: right;
+        width: 550px;
+    }
+
+    .titulo{
+        font-size: 45px;
+        font-family: vietnam7;
+        margin-left: 120px;
+    }
+
+    .final{
+        font-family: vietnam5;
+        margin-top: 30px;
+        line-height: 30px;
+    }
+
+    .mainbutton{
+        width: 134px;
+        height: 44px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-size: 13.1806px;
+        font-family: vietnam5;
+        margin-top: 30px;
+        transition: 450ms;
+    }
+
+    .mainbutton:hover{ 
+        background-color: rgba(139, 72, 191, 0.7);
+        transition: 450ms;
+    }
+
+    .contenedor3{
+        display: flex;
+        justify-content: space-evenly   ;
+        align-items: center;
+        background-color: #8B48BF;
+        color: white;
+        padding: 50px;
+    }
+
+    .contenedor3titulo{
+        font-family: vietnam7;
+        font-size: 36px;
+        width: 480px;
+    }
+    
+    .contenedor3lorem{
+        font-family: vietnam5;
+        width: 450px;
+    }
+
+    .contenedor4{
+        background-color: #FAFAFA;
+        padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .numero{
+        font-family: vietnam7;
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 25px;
+        width: 45px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contenido1{
+        display: flex;
+    }
+
+    .titulo2{
+        font-family: vietnam7;
+    }
+
+    .parrafo{
+        color: #B3B2B7;
+        line-height: 30px;
+        width: 450px;
+    }
+
+    .track{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: vietnam5;
+    }
+
+    .numero{
+        font-family: vietnam7;
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 25px;
+        width: 45px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contenido2{
+        display: flex;
+    }
+
+    .titulo2{
+        font-family: vietnam7;
+    }
+
+    .track{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: vietnam5;
+    }
+
+    .numero{
+        font-family: vietnam7;
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 25px;
+        width: 45px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        background-color: #FAFAFA;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+    }
+
+    .titulo2{
+        font-family: vietnam7;
+    }
+
+    .track{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: vietnam5;
+    }
+
+    .best{
+        font-family: vietnam7;
+        font-size: 40px;
+    }
+    
+    .jugadores{
+        display: flex;
+        background-color: #FAFAFA;
+        padding-bottom: 20px;
+        margin: 120px 70px 50px 70px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .titulo3{
+        font-family: vietnam7;
+    }
+
+    .parrafo2{
+        font-family: vietnam5;
+        color: #B3B2B7;
+        line-height: 30px;
+        font-size: 16px;
+        padding-top: 15px;
+        width: 400px;
+    }
+
+    .jugador{
+        position: relative;
+        left: 0px;
+        top: -35px;
+        transition: 450ms;
+    }
+
+    .jugador:hover{
+        transition: 450ms;
+        transform: scale(1.2);
+    }
+
+    .buttonjugador{
+        width: 134px;
+        height: 44px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-size: 13.1806px;
+        font-family: vietnam5;
+        transition: 450ms;
+    }
+
+    .buttonjugador:hover{ 
+        background-color: rgba(139, 72, 191, 0.7);
+        transition: 450ms;
+    }
+
+    .contenedor5{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .contenedor6{
+        padding: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #8B48BF;
+        margin-top: 190px;
+    }
+
+    .contenedor6titulo{
+        font-family: vietnam7;
+        font-size: 36px;
+        color: white;
+        width: 450px;
+    }
+
+    .buttongoforit{
+        margin-left: 250px;
+        width: 134px;
+        height: 44px;
+        background: white;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border: none;
+        border-radius: 50px;
+        color: #8B48BF;
+        font-size: 13.1806px;
+        font-family: vietnam5;
+        transition: 450ms;
+    }
+
+    .buttongoforit:hover{
+        background-color: #e4cdfc;
+        transition: 450ms;
+    }
+
+    .contenedorultimo{
+        padding: 65px;
+        background-color: #1E1E26;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footeroptions{
+        text-decoration: none;
+        color: white;
+        line-height: 30px;
+        font-family: vietnam4;
+        transition: 450ms;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .footeroptions:hover{
+        opacity: 0.6;
+        transition: 450ms;
+    }
+
+    .logotipos{
+        padding-top: 70px;
+    }
+
+    .logotipo1{
+        transition: 450ms;
+    }
+
+    .logotipo1:hover{
+        transition: 450ms;
+        transform: scale(1.5);
+    }
+
+    .logotipo{
+        padding-left: 10px;
+        transition: 450ms;
+    }
+
+    .logotipo:hover{
+        transform: scale(1.5);
+        transition: 450ms;
+    }
+
+    #inbox{
+        padding: 15px 20px;
+        border-radius: 30px;
+    }
+
+    .Go{
+        padding: 15px 25px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-color: #8B48BF;
+        margin-left: 10px;
+        transition: 450ms;
+    }
+
+    .Go:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+        transition: 450ms;
+    }
+
+    .copyright{
+        color: #8C8C94;
+        text-align: right;
+        padding-top: 70px;
+    }
